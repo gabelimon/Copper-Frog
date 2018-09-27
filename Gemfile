@@ -12,6 +12,7 @@ gem 'turbolinks', '~> 5'
 
 gem 'jbuilder', '~> 2.5'
 gem 'redis', '~> 4.0'
+gem 'resque'
 gem 'bcrypt', '~> 3.1.7'
 
 # Reduces boot times through caching; required in config/boot.rb

@@ -1,13 +1,14 @@
-# README
+# Copper Frog
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Copper Frog is a SaaS provisioning system. It (very simply put) will take webhooks from recurring
+billing systems such as KillBill, Recurly, QBO, and even SFDC. Building these integrations will take
+time but it should be simple. Once you've mapped your package properties, CF will relay messages to internal
+systems for actions like provisioning accounts, updating license restrictions (eg. head count), and
+cleaning clients that are no longer with you. 
 
-Things you may want to cover:
+## Technology
 
-* Ruby version
-
-* System dependencies
+Rails, Postgres, Redis, and Resque.
 
 * Configuration
 
