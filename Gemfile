@@ -14,6 +14,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'redis', '~> 4.0'
 gem 'resque'
 gem 'bcrypt', '~> 3.1.7'
+gem 'interactor-rails', '~> 2.0'
+gem 'resque-web', require: 'resque_web'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
@@ -41,6 +43,7 @@ end
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.8'
+  gem 'dotenv-rails', '~> 2.5.0'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
