@@ -9,17 +9,3 @@ cleaning clients that are no longer with you.
 ## Technology
 
 Rails, Postgres, Redis, and Resque.
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
